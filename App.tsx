@@ -16,6 +16,7 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
+import CustomIcon from './src/components/CustomIcon';
 
 import {
   Colors,
@@ -71,6 +72,7 @@ function App(): JSX.Element {
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
+        <CustomIcon name="search" size={25} />
         <Header />
         <View
           style={{
