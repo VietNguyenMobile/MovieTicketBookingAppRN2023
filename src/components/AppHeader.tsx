@@ -41,6 +41,8 @@ const styles = StyleSheet.create({
   emptyContainer: {
     height: SPACING.space_20 * 2,
     width: SPACING.space_20 * 2,
+    // borderWidth: 1,
+    // borderColor: 'red',
   },
   iconBG: {
     height: SPACING.space_20 * 2,
