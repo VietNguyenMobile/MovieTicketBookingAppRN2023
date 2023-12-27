@@ -295,6 +295,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     gap: SPACING.space_10,
     alignItems: 'center',
+    // borderWidth: 1,
+    // borderColor: 'yellow',
   },
   starIcon: {
     fontSize: FONTSIZE.size_20,
@@ -307,6 +309,7 @@ const styles = StyleSheet.create({
   },
   containerGap24: {
     gap: SPACING.space_24,
+    // backgroundColor: 'red',
   },
   buttonBG: {
     alignItems: 'center',
