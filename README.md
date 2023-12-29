@@ -1,3 +1,17 @@
+
+<p align="center">
+  <img src="docs/images/screenshot-1.png" width="200" />
+  <img src="docs/images/screenshot-2.png" width="200" />
+  <img src="docs/images/screenshot-3.png" width="200" />
+</p>
+
+<p align="center">
+  <img src="docs/images/screenshot-4.png" width="200" />
+  <img src="docs/images/screenshot-5.png" width="200" />
+  <img src="docs/images/screenshot-6.png" width="200" />
+</p>
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
