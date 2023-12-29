@@ -13,6 +13,11 @@
   <img src="docs/images/screenshot-6.png" width="200" />
 </p>
 
+## Link Youtube
+=> https://www.youtube.com/watch?v=KC0ddYQcnq4
+## Link Notion
+=> https://www.notion.so/Build-a-Movie-Ticket-Booking-App-Using-React-Native-2023-Beginner-4a81207ac13141eda43648a12a3b95ea
+
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
