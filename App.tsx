@@ -4,11 +4,19 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import TabNavigator from './src/navigators/TabNavigator';
 import MovieDetailsScreen from './src/screens/MovieDetailsScreen';
 import SeatBookingScreen from './src/screens/SeatBookingScreen';
+import NoConnectionScreen from './src/screens/NoConnectionScreen';
+import {useNetworkStatus} from './network';
 
 const Stack = createNativeStackNavigator();
 
 const App = () => {
-  return (
+  const connectStatus = useNetworkStatus();
+
+  console.log('connectStatus: ', connectStatus);
+
+  return connectStatus === false ? (
+    <NoConnectionScreen />
+  ) : (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>
         <Stack.Screen
