@@ -1,11 +1,11 @@
 import * as React from 'react';
-import {Text, View, StyleSheet} from 'react-native';
+import {Text, View, StyleSheet, Pressable, Alert} from 'react-native';
 import {COLORS, FONTFAMILY, FONTSIZE, SPACING} from '../theme/theme';
 import CustomIcon from './CustomIcon';
 
 const SettingComponent = (props: any) => {
   return (
-    <View style={styles.container}>
+    <Pressable style={styles.container} onPress={() => Alert.alert('Develop')}>
       <View>
         <CustomIcon name={props.icon} style={styles.iconStyle} />
       </View>
@@ -17,7 +17,7 @@ const SettingComponent = (props: any) => {
       <View style={styles.iconBG}>
         <CustomIcon name={'arrow-right'} style={styles.iconStyle} />
       </View>
-    </View>
+    </Pressable>
   );
 };
 

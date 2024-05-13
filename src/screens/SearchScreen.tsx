@@ -19,6 +19,7 @@ const SearchScreen = ({navigation}: any) => {
 
   const searchMoviesFunction = async (name: string) => {
     try {
+      
       let response = await fetch(searchMovies(name));
       let json = await response.json();
       setSearchList(json.results);

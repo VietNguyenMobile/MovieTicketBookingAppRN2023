@@ -28,6 +28,7 @@ const InputHeader = (props: any) => {
       />
       <TouchableOpacity
         style={styles.searchIcon}
+        disabled={!searchText}
         onPress={() => props.searchFunction(searchText)}>
         <CustomIcon
           name="search"
